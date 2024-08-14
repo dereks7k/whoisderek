@@ -1,0 +1,73 @@
+@import url('https://fonts.google.com/specimen/Teko');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif
+}
+body{
+    background:rgb(117, 7, 7);
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main{
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    background-color: darkgrey;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 5px solid black;
+    border-radius: 20px;
+    opacity: .8;
+    border-color: black;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(117, 7, 7);
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: overline 3px; 
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 82%, 13%)
+}
+.navbar li{
+    float: left;
+}
+.description {
+    display: flex;
+    border: 5px solid black;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background:rgb(220,220,220);
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+img {
+    border: 7px solid black;
+    padding: 3px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+img2 {
+    border: 7px solid black;
+    padding: 3px;
+    border-radius: 10px;
+    max-width: 300px;
+}
